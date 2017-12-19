@@ -16,3 +16,53 @@ int main() {
 }
 
 ----------------------------------------------------------
+sum of first 10 numbers
+
+#include<stdio.h>
+
+int main() {
+    int i,sum=0;
+    for (i=1;i<=10;i++)
+    {
+    sum+=i;
+    }
+   printf("%d ",sum);
+}
+
+--------------------------------------------------------------------
+
+display of first 10 numbers
+
+#include<stdio.h>
+
+int main() {
+    int i;
+    for (i=1;i<=10;i++)
+   
+   printf("%d ",i);
+}
+
+----------------------------------------------------------------------------
+avg and sum of any 10 numbers
+
+#include<stdio.h>
+
+int main() {
+    int i,n,sum=0;
+    float p;
+    for (i=1;i<=10;i++)
+    {
+        printf("Number-%d: \n",i);
+        scanf("%d",&n);
+        sum+=n;
+    }
+    p=sum/10;
+    printf("The sum of 10 no is :%d \n",sum);
+    printf("The Average is :%f \n",p);
+   
+  
+}
+
+
+
+
