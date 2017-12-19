@@ -107,3 +107,84 @@ int main() {
 ------------------------------------------------------------------
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+
+numbers equal r not
+
+#include<stdio.h>
+
+int main() {
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a==b)
+    {
+        printf("Number1 and Number2 are equal");
+    }
+    else
+    {
+        printf("Number1 and Number2 are not equal");
+    }
+}
+
+-----------------------------------------------------------------------
+
+positive r negative
+
+#include<stdio.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a>=0)
+    {
+        printf("%d is a positive number",a);
+    }
+    else
+    {
+        printf("%d is a negative number",a);
+    }
+}
+
+--------------------------------------------------------------------
+
+triangle
+
+#include<stdio.h>
+
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if((a==b)&&(b==c))
+    {
+        printf("This is an equilateral triangle.");
+    }
+    else if((a==b)||(b==c)||(c==a))
+    {
+        printf("This is an isosceles triangle");
+    }
+    else
+    {
+        printf("This is an Scalene triangle");
+    }
+}
